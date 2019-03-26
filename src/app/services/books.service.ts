@@ -29,7 +29,7 @@ export class BooksService {
     });
   }
 
-  getSingleBooks(id: number) {
+  getSingleBook(id: number) {
     return new Promise(
       (resolve, reject) => {
         firebase.database().ref('/books/' + id).once('value').then(
@@ -43,7 +43,7 @@ export class BooksService {
     );
   }
 
-  createNewBooks(newBook: Book) {
+  createNewBook(newBook: Book) {
     this.books.push(newBook);
     this.saveBooks();
     this.emitSubject();
