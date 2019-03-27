@@ -11,14 +11,15 @@ export class AppComponent {
   constructor() {
     // Initialize Firebase
     var config = {
-      apiKey: "AIzaSyBtdxrhzlk9TytkcQkaCXzlLMRwNLF6pTA",
-      authDomain: "mybooklibrary-c1a3a.firebaseapp.com",
-      databaseURL: "https://mybooklibrary-c1a3a.firebaseio.com",
-      projectId: "mybooklibrary-c1a3a",
-      storageBucket: "mybooklibrary-c1a3a.appspot.com",
-      messagingSenderId: "1086595216653"
+      apiKey: "AIzaSyBUx12ZAERrmPdBROEadDe3dDOszHtG0BY",
+      authDomain: "mybooklibrary2-38a55.firebaseapp.com",
+      databaseURL: "https://mybooklibrary2-38a55.firebaseio.com",
+      projectId: "mybooklibrary2-38a55",
+      storageBucket: "mybooklibrary2-38a55.appspot.com",
+      messagingSenderId: "509723882190"
     };
     firebase.initializeApp(config);
+
 
   }
 }
